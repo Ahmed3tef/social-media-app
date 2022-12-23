@@ -24,7 +24,8 @@ module.exports = {
     extend: {
       colors: {
         mainGrey: '#f3f4f6',
-        bodyBg: '#9ca3af',
+        bodyBg: 'rgb(193,190,255)',
+        purpleBtn: '#938eef',
         alt: '#334155',
         btnHover: '#64748b',
         textColor: '#000',
