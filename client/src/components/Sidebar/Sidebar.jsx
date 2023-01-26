@@ -8,7 +8,7 @@ const Sidebar = () => {
   useEffect(() => {
     const navH = document.getElementById('navbar').clientHeight
     setNavHeight(navH)
-    console.log(navH);
+    // console.log(navH);
   }, [])
 
   return (

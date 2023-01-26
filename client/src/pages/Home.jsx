@@ -1,11 +1,11 @@
 import React from 'react'
+import { Posts, Stories } from '../components'
 
 const Home = () => {
   return (
-    <div>
-      {
-        [...new Array(100)].map((e, i) => <h1>hey </h1>)
-      }
+    <div className='w-[62vw] flex flex-col px-[4rem] md:px-[6rem] lg:px-[10rem]'>
+      <Stories />
+      <Posts />
     </div>
   )
 }

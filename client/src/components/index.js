@@ -11,3 +11,7 @@ export { default as UserLink } from './Cards/UserLink';
 // reusable
 export { default as Spinner } from './Spinner/Spinner';
 export { default as ErrorMsg } from './Error/ErrorMsg';
+
+// home
+export { default as Stories } from './Stories/Stories';
+export { default as Posts } from './Posts/Posts';
